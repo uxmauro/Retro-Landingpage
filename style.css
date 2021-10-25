@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+ 
+*{
+    
+    font-family: "Press Start 2P";
+}
+
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    line-height: 40px;
+    text-shadow: -2px 3px 0px #3B82F6;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    padding: 0 16%;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+    
+}
+
+nav img{
+    height: 60%;
+}
+nav img:hover{
+    filter: blur(2px);
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+
+}
+nav a:hover{
+ color: rgb(62, 221, 205);
+}
+
+.header-content{
+    display: flex;
+    margin-top: 4em;
+    padding: 20px 16%;
+    height: 24em;
+    width: 100%;
+}
+
+
+header button{
+    color: white;
+    border-color: white;
+    border-style:solid;
+    background-color: #3B82F6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: rgb(62, 221, 205);
+}
+
+.hright img{
+    padding-left: 20px;
+    height: 80%;
+}
+
+.randominfo{
+    height: 32em;
+    width: 100%;
+    padding-top: 32px;
+    background-color: white;
+    
+}
+.randominfo h1{
+    text-align: center;
+    color: #1F2937; 
+}
+.randominfocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30em;
+    height: 20em;
+}
+
+.randomimgtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+.randomimgtext img{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #3B82F6;
+    border-radius: 4px;
+}
+
+.quote{
+    padding: 10% 10%;
+    background-color: #E5E7EB;
+    height: 14em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+blockquote{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.quoteauthor{
+    font-size: 32px;
+    margin-right: 8%;
+}
+
+.cta{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32em;
+    width: 100%;
+    background-color: white;
+    }
+
+.ctarectangle{
+    height: 40%;
+    width: 80%;
+    background-color: #3B82F6;
+    border-radius: 16px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    }
+
+
+    .ctarectangle  button{
+        color: white;
+        border-color: white;
+        border-style:solid;
+        background-color: #3B82F6;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 2%;
+    }
+
+
+
+    .ctarectangle  button:hover{
+        background-color: rgb(62, 221, 205);
+    }
+
+    .ctatext{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content:center;
+        color: white;
+        height: 100%;
+    }
+    
+    .ctatext h3{
+    margin: 0;
+    font-size: 16px;
+    }
+    .ctatext p{
+    margin: 0;
+    }
+
+    footer{
+        height: 8em;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    }
+    footer a:hover{
+        color: rgb(62, 221, 205);;
+    }
